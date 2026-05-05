@@ -1,0 +1,27 @@
+# === SECURITY: NEVER commit these ===
+# Claude settings - contains API keys
+.claude/
+.claude.json
+
+# Memory - personal context, daily logs
+MEMORY.md
+memory/
+
+# Heartbeat state - tracking data
+memory/heartbeat-state.json
+
+# Environment files with secrets
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
