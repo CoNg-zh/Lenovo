@@ -25,3 +25,12 @@ memory/heartbeat-state.json
 
 # Node
 node_modules/
+
+# OpenClaw internal
+.openclaw/
+
+# Config (may contain secrets)
+config/
+
+# Skills (reinstallable, large)
+skills/
