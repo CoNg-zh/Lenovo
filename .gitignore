@@ -1,11 +1,6 @@
-# === SECURITY: NEVER commit these ===
-# Claude settings - contains API keys
+# === Claude settings - contains API keys ===
 .claude/
 .claude.json
-
-# Memory - personal context, daily logs (now included since repo is private)
-# MEMORY.md excluded - may contain aggregated personal notes
-MEMORY.md
 
 # Environment files with secrets
 .env
@@ -23,9 +18,7 @@ MEMORY.md
 # Node
 node_modules/
 
-# OpenClaw internal state (now included)
+# OpenClaw internal state (large)
 .openclaw/workspace-state.lock
 .openclaw/agents/
-
-# Skills (reinstallable, large)
-skills/
+.openclaw/cron/
