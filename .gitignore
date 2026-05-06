@@ -3,12 +3,9 @@
 .claude/
 .claude.json
 
-# Memory - personal context, daily logs
+# Memory - personal context, daily logs (now included since repo is private)
+# MEMORY.md excluded - may contain aggregated personal notes
 MEMORY.md
-memory/
-
-# Heartbeat state - tracking data
-memory/heartbeat-state.json
 
 # Environment files with secrets
 .env
@@ -26,11 +23,9 @@ memory/heartbeat-state.json
 # Node
 node_modules/
 
-# OpenClaw internal
-.openclaw/
-
-# Config (may contain secrets)
-config/
+# OpenClaw internal state (now included)
+.openclaw/workspace-state.lock
+.openclaw/agents/
 
 # Skills (reinstallable, large)
 skills/
